@@ -1,0 +1,190 @@
+body{
+  background-color:#2B5066;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.WAYF{
+  position: relative;
+  top: -490px;
+
+}
+
+.fa-github{
+  font-size: 50px;
+}
+
+.wayfdesc{
+  margin-left:600px;
+  position: relative;
+  top: -470px;
+}
+
+
+.LEFT{
+  margin-left: 300px;
+}
+
+
+.TitleName{
+  position: relative;
+  z-index: 2;
+  color:white;
+}
+
+.AboutMe{
+    position: relative;
+    z-index: 2;
+    color:white;
+    /* margin:auto; */
+}
+
+.Background{
+
+  position: relative;
+  height: 1000px;
+  width:100%;
+  background-image:url("../images/starz.jpg");
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  z-index: 1;
+  top: -600px;
+  margin-bottom: 0px;
+  margin-left: 0;
+}
+
+
+.me{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.fa-bars{
+  display: none;
+}
+
+
+body{
+  box-sizing: border-box;
+  font-family: 'Cormorant SC', serif;
+}
+
+header h1{
+  font-size: 100px;
+  padding-top: 100px;
+}
+
+
+div{
+  margin-left: 20px;
+  color:white;
+}
+
+.meDiv, .modalTesting{
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin-left: 12px;
+}
+
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+
+.carousel{
+
+  width: 70%;
+  margin: auto;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: flex;
+}
+
+.carousel-item{
+  margin-top: 0px;
+}
+.carousel-inner{
+  margin-top: 0px;
+}
+
+
+
+.active{
+  color: purple;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  background: black;
+  width: 100%;
+  position: fixed;
+  padding-top: 10px;
+  z-index: 3;
+
+
+}
+
+
+.wayfdesc li{
+  color: black;
+}
+li{
+  display: inline-block ;
+  color: white;
+  font-size: 20px;
+}
+
+ul{
+  word-spacing: 40px;
+  padding-left: 0;
+
+}
+header h1{
+  text-align: center;
+}
+
+img{
+  height: 500px;
+  width: 400px;
+  position: relative;
+}
+
+
+.dropdown{
+  display: none;
+}
+
+
+
+
+
+
