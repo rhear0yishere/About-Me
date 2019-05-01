@@ -3,7 +3,8 @@
   <head>
           <meta charset="UTF-8">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-          <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Enriqueta" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Quantico|Roboto+Mono|Spectral+SC" rel="stylesheet">
+
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
           <link rel="stylesheet" href="css/style.css"></link>
 
@@ -13,218 +14,154 @@
 
   <body>
 
-  <header>
 
+
+  <header >
       <nav>
-        <!-- Hamburger Nav Bar -->
-        <i class="fa fa-bars"></i>
-        <ul>
-            <li><a class = "aboutMeActive" href="#aboutMe"> About</a></li>
-            <li> <a class = "travelActive" href="#projects"> Projects</a></li>
-            <!-- <li> <a class = "testimonialsActive" href="#Testimonials"> Testimonials</a></li> -->
-            <li> <a class = "contactActive" href="#contact"> Contact</a></li>
-        </ul>
+
+          <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+        
+            </ul>
+          </nav>
+      <div class = "Background" ></div>
+        
+      
+      <div class ='name'>
+        <h1 > Rhea Roy</h1>
+      </div>
+
+    <div class= "headerImages">
+
+   
+        <img class="smallerPic" src= "images/world.jpg">
+ 
+
+      <img class="otherPic" src= "images/code1.jpg">
+      <img class="mePic" src= "images/turkey.png">
+
+      <img class="otherPic" src= "images/code2.jpg">
+      <img class="smallerPic" src= "images/SF.jpg">
 
 
-      </nav>
-
-    
-<h1 class ="TitleName">Rhea Roy</h1>
-
-
-
-
-<div class = "modalTesting"></div>
-<!-- <div class='meDiv'><img class= "me" src= "images/profile.jpg"></div> -->
-<div class='meDiv'><img class= "me" src= "images/turkey.png">
-      <!-- <br>
-      <br> -->
-      <h2 class ="AboutMe "> Enthusiastic web developer with a passion for programming, creating, and learning.</h2>
-
-
-</div>
-
-
-<div class = "Background" ></div>
-
-
-
-
+    </div>
+      <div class ='quickIntro'>
+        <h2 >Full-stack web developer</h2>
+      </div>
   </header>
 
 
-  <div id= 'aboutMe'class= 'WAYF'>
-    <br><br>
-    <h1>About Me</h1>
 
-      <p >
-         I first got my hands on web development through MySpace. Remember that? I loved 
-         designing my profile exactly the way I wanted through manipulating my page's HTML. Years
-         later I was able to take an introduction to Python during my freshman year of college. 
-         That class solidified that inkling I had during my MySpace years: that web development was
-         my passion.
-    
-      </p>
-    </div>
-    <br id= 'projects'><br>
+  <div class="wrap"id= 'projects'  >
+      <img src="images/SociaLite.png" class= 'ProjectPic' alt="...">
+      <!-- <div class="description">
+          <h3 >A Work In Progress</h3>
+      </div> -->
 
+      <div class = "projectDescription" >
+          <h1> SociaLite </h1>
+          <p>A React Native application to make planning events with friends an easy process.</p>
+          <h3> Technology </h3>
+          <img src="images/native.png" style = "height: 60px">
+          <img src="images/mongodb.png" style = "height: 150px">
+          <img src="images/node.png" style = "height: 150px">
+          <img src="images/express.png" style = "height: 100px">
+          <hr>
+          
+          <a class= 'ViewWeb' href="https://expo.io/@rhear0yishere/SociaLite">View SociaLite on Expo</i>
 
-<!-- PROJECT 1 -->
+          <a href="https://github.com/rhear0yishere/SociaLite"><i class="fa fa-github" aria-hidden="true"></i></a>
 
-
- <div class="WAYF">
-   <h1>Projects</h1>
-   <br>
-   <h1>SociaLite</h1>
-  
-<div>
-    <img   src= "images/SociaLite.png">
-  </div>
-
-  <div class= "wayfdesc">
-    <h1 >Description</h1>
-    <p>Making plans with your friends can be rough. I made this app to make that process a 
-      little bit easier. I also made this 
-      to practice using React Native which I have never used before.</p>
-    <h4>Technologies Used</h4>
-
-    <ul>
-      <li>React-Native </li>
-      <li>MongoDB </li>
-      <li>Express </li>
-      <li>NodeJS </li>
-    </ul>
-
-    <h5>See the code behind SociaLite</h5>
-    <a href="https://github.com/rhear0yishere/SociaLite"><i class="fa fa-github" aria-hidden="true"></i>
-    </a>
-
-    <br>
-    <br>
- 
-    <a href="https://test-deploy-wayfarer.herokuapp.com/">View SociaLite</i>
-    </a>
-
-
-  </div>
-
-  
-
-</div>
-
-
-<!-- PROJECT 2 -->
-
-
-
-<div class="WAYF">
-  <h1>TransPlant</h1>
- 
-<div>
-   <img  src= "images/transplant.gif">
- </div>
-
- <div class= "wayfdesc">
-   <h1 >Description</h1>
-   <p>Our app is a house-plant matching app. Users are presented with a series of cards containing names and images of popular house plant species. 
-     There is also care information such as the amount of light and water needed to 
-     keep the plant healthy. The user can either press a button to accept or reject the plant. 
-     Accepted plants are saved to the user's profile. On a user's profile page, all the plants 
-     that have been saved are listed to the user, who can then leave reviews on their plant-caring
-     ience.</p>
-   <h4>Technologies Used</h4>
-
-   <ul>
-     <li>Flask </li>
-     <li>PEEWEE </li>
-     <li>SQLite </li>
-     <!-- <li>Description </li> -->
-   </ul>
-
-   <h5>See the code behind TransPlant</h5>
-   <a href="https://github.com/rhear0yishere/PlantSwipe"><i class="fa fa-github" aria-hidden="true"></i>
-   </a>
-
-   <br>
-   <br>
-
-   <a href="https://transplant-sql.herokuapp.com">View TransPlant</i>
-   </a>
- </div>
-
-
- 
-
-</div>
-
-
-
-
- <!-- PROJECT 3 -->
-
- 
-<div class="WAYF">
-  <h1>Project Wayfarer</h1>
- 
-<div>
-   <img  src= "images/wayfland.gif">
- </div>
-
- <div class= "wayfdesc">
-   <h1 >Description</h1>
-   <p>We have been commissioned to build a travel community, code-named Project Wayfarer for now, for users to share tips (AKA posts) about their favorite locations around the world.
-  </p>
-   <h4>Technologies Used</h4>
-
-   <ul>
-     <li>React </li>
-     <li>MongoDB </li>
-     <li>Express </li>
-     <li>NodeJS </li>
-   </ul>
-   <h5>See the code behind Wayfarer</h5>
-   <a href="https://github.com/rhear0yishere/Project2--Wayfarer"><i class="fa fa-github" aria-hidden="true"></i>
-   </a>
-
-   <br>
-   <br>
-
-   <a href="https://test-deploy-wayfarer.herokuapp.com/">View Wayfarer</i>
-   </a>
-
-   </a>
- </div>
-
- 
-
-</div >
-
-
-<!-- CONTACT -->
-
-<div id = 'contact'class= 'WAYF'>
-    <h1>Get in Touch</h1>
-
-      <h4>
-          <a href="mailto:rroy.rhea@gmail.com">EMAIL</a><br> 
-      </h4>
-    </div>
-    <br><br>
-
-
-    <footer>
-    <div class="wrap">
-      <div class="social-links">
-        <a href="https://www.facebook.com/rhear0yishere"><i class=" square fa fa-facebook-square" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/rhear0yishere"><i class="square fa fa-twitter-square" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/rhear0yishere/"><i class=" square fa fa-instagram" aria-hidden="true"></i></a>
+          
+            
       </div>
-     </div>
-  </footer>
+  </div>
+
+
+
+  <div class="wrap">
+      <img src="images/transplant.gif" class= 'ProjectPic' alt="...">
+      <!-- <div class="description">
+          <h3 >HELLO</h3>
+      </div> -->
+
+      <div class = "projectDescription" >
+          <h1> TransPlant </h1>
+          <p>A Tinder-like application that allows user to swipe through various house plants and match with the 
+            ones they like.</p>
+
+            <h3> Technology </h3>
+            <img src="images/flask.png" style = "height: 200px">
+            <img src="images/SQLITE.png" style = "height: 150px; margin-left:20px">
+            <img src="images/peewee.png" style = "height: 120px">
+            <hr>
+            <a class= 'ViewWeb' href="https://transplant-sql.herokuapp.com">View TransPlant</i>
+            <a href="https://github.com/rhear0yishere/TransPlant"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+          </div>
+
+
+  </div>
+
+
+  <div class=" lastProj wrap">
+      <img src="images/wayfland.gif" class= 'ProjectPic' alt="...">
+      <!-- <div class="description">
+          <h3 >HELLO</h3>
+      </div> -->
+
+      <div class = "projectDescription" >
+          <h1> Wayfarer </h1>
+          <p>A website that allows users to search for reviews and blog posts about cities around the world.</p>
+
+          <h3> Technology </h3>
+          <img src="images/React.png" style = "height: 150px">
+          <img src="images/node.png" style = "height: 150px">
+
+          <img src="images/mongodb.png" style = "height: 150px">
+          <img src="images/express.png" style = "height: 100px">
+
+          <hr>
+          <a class= 'ViewWeb' href="test-deploy-wayfarer.herokuapp.com">View Wayfarer</i>
+          <a href="https://github.com/rhear0yishere/Project2--Wayfarer"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+
+      </div>
+  </div>
+
+ 
+  <div class='wrap' id= 'contact' style= "margin-top:300px; margin-left:45%;">
+
+    
+<h1>Contact</h1>
+</div>
+<div style= "position:relative;top:-1700px; z-index: 1; margin-left:46.5% ;">
+
+    
+    <h2>
+        <a href="mailto:rroy.rhea@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/rhear0yishere"><i class=" square fa fa-facebook-square" aria-hidden="true"></i></a>
+       
+          <a href="https://twitter.com/rhear0yishere"><i class="square fa fa-twitter-square" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/rhear0yishere/"><i class=" square fa fa-instagram" aria-hidden="true"></i></a>
+
+    </h2>
+       
+  
+    </div>
+
+
 
 
 <script src="js/jquery-3.1.1.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLett8djBo62dDXj0EjCimF8Rd6E8cxg"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
