@@ -1,5 +1,5 @@
 body{
-  font-family: 'Spectral SC', serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 html {
@@ -10,7 +10,7 @@ html {
 .Background{
 
   position: relative;
-  height: 1700px;
+  height: 2000px;
   width:100%;
   background-image:url("../images/starz.jpg");
 
@@ -55,12 +55,15 @@ nav a{
 }
 
 .quickIntro h2{
-  font-family: 'Spectral SC', serif;
+  /* font-family: 'Spectral SC', serif; */
   font-size: 40px;
 }
 
 
 .headerImages{
+  position: relative;
+  top: 900px;
+  /* z-index: 1; */
   justify-content: center;
   display: flex;
   margin-left: auto;
@@ -112,7 +115,7 @@ nav a{
 .wrap {
   display: flex;
   position: relative;
-  top: -1100px;
+  top: -700px;
   height: 600px;
   width: 500px;
   margin-bottom: 100px;
